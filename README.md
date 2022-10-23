@@ -1,0 +1,1 @@
+Open the index.html file with your web browser and PLAY!!!
