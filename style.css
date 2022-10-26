@@ -94,8 +94,10 @@
 
 
   h2     { 
+    margin-top: 40px;
     text-align:center; 
-    margin-bottom:50px; 
+    margin-bottom:20px;
+    font-size: 40px; 
   }
   h2 small { 
     font-weight:normal; 
@@ -124,7 +126,7 @@
   /* LABEL ======================================= */
   label          {
     color:#999; 
-    font-size:18px;
+    font-size:25px;
     font-weight:normal;
     position:absolute;
     pointer-events:none;
@@ -137,8 +139,8 @@
   
   /* active state */
   input:focus ~ label, input:valid ~ label    {
-    top:-20px;
-    font-size:14px;
+    top:-40px;
+    font-size:25px;
     color:#5264AE;
   }
   
@@ -198,4 +200,5 @@
     from { background:#5264AE; }
     to  { width:0; background:transparent; }
   }
+
   
