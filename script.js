@@ -110,7 +110,8 @@ submiter.addEventListener("click", () => {
   }
   else{
     const batch = 19;
-    const Number = parseInt(getText.value);
+    // const Number = parseInt(getText.value);
+    const Number = getText.value * 1;
     // console.log(batch);
     // console.log(Number);
 
