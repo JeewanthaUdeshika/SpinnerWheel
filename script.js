@@ -203,6 +203,9 @@ submiter.addEventListener("click", () => {
           case 244: case 7: case 60: case 105: case 295: case 426: case 446: case 423: case 111:
           randomDegree = 100; // Group 10
           break;
+
+          default:
+          break;
       }
     }
   }
